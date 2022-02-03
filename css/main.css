@@ -372,3 +372,49 @@ i {
 .btn-light:hover {
     color: var(--light-clr);
 }
+
+/* Footer */
+.footer {
+    background-color: var(--light-clr);
+    padding-bottom: 4rem;
+}
+.footer-container-inner {
+    grid-template-columns: repeat(auto-fit , minmax(20rem,1fr));
+    gap: var(--gap-md);
+}
+.contact-information address {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-information .list {
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+
+.footer .link-link {
+    transition: color .25s;
+}
+
+.footer .list-link::after {
+    display: none;
+}
+.footer .list-link:hover{
+    color: var(--accent-clr);
+}
+
+.footer-title {
+    font-size:var(--font-size-sm);
+}
+.underlined {
+    text-decoration: underline;
+}
+.footer-separator {
+    margin-block: 2.5rem;
+    opacity: .2;
+}
+
+.copyright {
+    opacity: .8;
+}
