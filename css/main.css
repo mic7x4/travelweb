@@ -209,7 +209,9 @@ i {
 .showcase{
     margin-top: 8rem;
 }
-.showcase-container{
+.showcase-container,
+.popular-destinations-container,
+.plan-trip-container{
     gap: var(--gap-lg);
 }
 
@@ -285,7 +287,8 @@ i {
 
 /* Popular destinations */
 
-.secondary-grid {
+.secondary-grid,
+.plan-trip {
     gap: var(--gap-lg);
 }
 .beach-data-wrapper {
